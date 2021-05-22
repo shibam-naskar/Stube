@@ -55,7 +55,7 @@ class _MyHomePageState extends State<MyHomePage> {
   fetchSongs() async {
     // var REQURL = "https://youtube-music-shibam.herokuapp.com/youtube-data/songs";
     var response = await http.get(
-        Uri.https('youtube-music-shibam.herokuapp.com', 'youtube-data/songs'));
+        Uri.https('YOUR API PARAMETERS', 'YOUR API PARAMETERS'));
     if (response.statusCode == 200) {
       var items = json.decode(response.body);
       setState(() {
@@ -72,7 +72,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
   getSearchSongs() async {
     var response = await http.get(Uri.https(
-        'youtube-music-shibam.herokuapp.com', 'youtube-data/${searchq}'));
+        'API PARAMETER', 'API PARAMETER'));
     if (response.statusCode == 200) {
       var items = json.decode(response.body);
       setState(() {
