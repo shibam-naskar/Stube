@@ -1,6 +1,7 @@
 # stube
 
-https://user-images.githubusercontent.com/39475600/119239999-a723c980-bb6a-11eb-9dd0-76ebb7d9d202.mp4
+https://user-images.githubusercontent.com/39475600/119240054-0550ac80-bb6b-11eb-9f3f-7c44b406b21b.mp4
+
 
 A new Flutter project that plays youtube videos without adds.
 
