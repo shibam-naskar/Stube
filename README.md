@@ -1,10 +1,12 @@
 # stube
 
-A new Flutter project.
+A new Flutter project that plays youtube videos without adds.
 
 ## Getting Started
 
 This project is a starting point for a Flutter application.
+
+the api is hosted on heroku so i cant give yoy api parameters but you can create yourown with my api repo in my profile.
 
 A few resources to get you started if this is your first Flutter project:
 
